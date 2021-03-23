@@ -18,7 +18,7 @@ The goal of this project is to compare the different pre-trained networks and to
 ### Comparison of the three networks side-by-side:
 In the direct comparison VGG16 provides the best results. 
 
-<img src="https://github.com/lenaromanenko/deep_learning/blob/main/images/readme_file_images/1.png" width="700" height="350">
+<img src="https://github.com/lenaromanenko/deep_learning/blob/main/images/readme_file_images/1.png" width="700">
 
 ## Improving the results of VGG16:
 The predictions by VGG16 can be further improved by tweaking the image and the NumPy arrays before analyzing the picture.
@@ -27,19 +27,19 @@ The predictions by VGG16 can be further improved by tweaking the image and the N
 
 Our model learns on the 224 by 224 Numpy arrays which are equal to 224x224 pixels frames. Since the image is too large, many fishes won’t fit into our 224x224 pixels frames. To solve this problem we can set the image width to a smaller size.
 
-<img src="https://github.com/lenaromanenko/deep_learning/blob/main/images/readme_file_images/2.png" width="700" height="350">
+<img src="https://github.com/lenaromanenko/deep_learning/blob/main/images/readme_file_images/2.png" width="700">
 
 ### 2. Changing steps for frame iterations
 To analyze more objects on the picture we could iterate through the picture in smaller steps. This makes our predictions better but it also increases the time needed for predictions.
 
-<img src="https://github.com/lenaromanenko/deep_learning/blob/main/images/readme_file_images/4.png" width="700" height="350">
+<img src="https://github.com/lenaromanenko/deep_learning/blob/main/images/readme_file_images/4.png" width="700">
 
 ### 3. Adding a border to the picture
 The fishes close to the borders of our picture would fit into less frames as compared to the fishes which are closer to the center. To solve this problem we can add a frame around our picture.
 
-<img src="https://github.com/lenaromanenko/deep_learning/blob/main/images/readme_file_images/3.png" width="700" height="350">
+<img src="https://github.com/lenaromanenko/deep_learning/blob/main/images/readme_file_images/3.png" width="700">
 
 The effect of adding a border to the picture can be seen below:
 
-<img src="https://github.com/lenaromanenko/deep_learning/blob/main/images/readme_file_images/5.png" width="700" height="350">
+<img src="https://github.com/lenaromanenko/deep_learning/blob/main/images/readme_file_images/5.png" width="700">
 
